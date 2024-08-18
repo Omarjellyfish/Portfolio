@@ -11,10 +11,11 @@ html, body {
   .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-color: #080808;
+    
   }
   #landing-page{
+    background-color: #080808;
+    height: 100vh;
   }
   #top-menu {
     display: flex;
@@ -84,4 +85,26 @@ html, body {
     background-color: #62BA1B;
     transition: ease-in;
     transition-duration: 0.3s;
+  }
+  #worked-with{
+    margin-left: 100px;
+  }
+  #worked-with-text{
+    display: block;
+    flex-direction:row ;
+    color: white;
+  }
+  #w-image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    width: 920px;
+    height: 60px;
+  }
+  .icon{
+    overflow: hidden;
+    width: 180px;
+    height: 60px;
+    margin: 10px;
   }
