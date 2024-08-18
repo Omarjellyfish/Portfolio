@@ -60,4 +60,6 @@ html, body {
     align-items: center;
     color: white;
   }
-  
+  #split-mid{
+    display: flex;
+  }
