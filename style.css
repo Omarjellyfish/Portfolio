@@ -2,8 +2,19 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    scroll-behavior: smooth;
+
+    
   }
-  
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
   body {
     font-family: Arial, sans-serif;
   }
@@ -63,3 +74,78 @@ html, body {
   #split-mid{
     display: flex;
   }
+
+  /* start Testimonials */
+  .Testimonials{
+    margin-top: 20px;
+    background-color: #080808;
+    color: white;
+  }
+  .count{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.count .title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.count >p{
+  text-align: center;
+  line-height: 2;
+  color: #9C9C9C;
+  letter-spacing: 1.5px;
+}
+.count .boxes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+.count  .box{
+  position: relative;
+  border: 1px solid ;
+  border-radius: 15px;
+  padding: 15px;
+  /* border-image:linear-gradient(90deg, white ,black);;
+  width: 600px; */
+
+}
+.count .box p{
+  color: #9C9C9C;
+  margin-left: 40px;
+  letter-spacing: 1.5px;
+  line-height: 2;
+}
+@media (min-width: 768px) {
+  .count .box p {
+    width: 400px;
+  }
+}
+.count .box .persone{
+display: flex;
+align-items: center;
+}
+.count .box .persone img{
+  max-width: 100%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-left: 40px;
+
+}
+.count .box .persone span{
+  margin-left: 15px;
+}
+.count .box i{
+  position: absolute;
+  top: -23px;
+  font-size: 43px;
+}
+  /* End Testimonials */
