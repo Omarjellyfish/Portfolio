@@ -22,10 +22,11 @@ ul{
   .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    
   }
   #landing-page{
-    background-color: rgba(0, 0, 0, 0.422);
+    background-color: #080808;
+    height: 100vh;
   }
   #top-menu {
     display: flex;
@@ -73,6 +74,50 @@ ul{
   }
   #split-mid{
     display: flex;
+    margin: 100px;
+  }
+  .container2{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  #get-started{
+    background-color: #3F8E00;
+    width: 307px;
+    height: 63px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px 2px rgb(38, 130, 37);;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border: none  ;
+  }
+  #get-started:hover{
+    background-color: #62BA1B;
+    transition: ease-in;
+    transition-duration: 0.3s;
+  }
+  #worked-with{
+    margin-left: 100px;
+  }
+  #worked-with-text{
+    display: block;
+    flex-direction:row ;
+    color: white;
+  }
+  #w-image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    width: 920px;
+    height: 60px;
+  }
+  .icon{
+    overflow: hidden;
+    width: 180px;
+    height: 60px;
+    margin: 10px;
   }
 
   /* start Testimonials */
