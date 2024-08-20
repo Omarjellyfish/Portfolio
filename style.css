@@ -35,16 +35,29 @@ ul{
     align-content: center;
     background-color: #1B1B1B;
     padding: 20px;
+    width: 1310px;
+    height: 60px;
+    left: 85px;
+    border-radius: 0 0 8px 8px;
   }
-  
+  .s-media{
+    width: 28px;
+    height: 27px;
+    opacity: 30%;
+    margin-left: 15px;
+  }
   #nav-bar {
     display: flex;
   }
-  
+  #links{
+    justify-content: space-between;
+  }
   #quick-access a {
     text-decoration: none;
     color: white;
     margin-right: 20px;
+    color: #9C9C9C;
+    
   }
   #quick-access{
     align-self: center;
