@@ -123,6 +123,7 @@ ul{
   #case-studies{
     align-self: center;
     background-color: whitesmoke;
+    margin: 20px;
   }
   .overview-text{
     display: flex;
@@ -150,6 +151,8 @@ ul{
   }
   .left-aside-work{
     width: 449px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .work-type{
     width: 72px;
@@ -166,11 +169,15 @@ ul{
   .about-work{
     color:#9C9C9C; ;
   }
+  .work-name{
+    font-size: 30px;
+    font-weight: bold;
+  }
   .view-work{
     width: 189px;
     height: 38px;
     border-radius: 4px;
-    top: 245px;
+
     border: 0;
     padding: 10px, 24px, 10px, 24px;
     gap: 10px;
@@ -189,6 +196,10 @@ ul{
     height: 300px;
     top: 182px;
     overflow: hidden;
+  }
+  .reverse-section{
+    flex-direction: row-reverse;
+
   }
 
 
