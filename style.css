@@ -119,7 +119,35 @@ ul{
     height: 60px;
     margin: 10px;
   }
+/* START CASE STUDIES */
+  #case-studies{
+    align-self: center;
+  }
+  .overview-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+  }
+  .t1{
+    align-self: center;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  .intro-text{
+    align-items: center;
+    color: #9C9C9C;
+  }
+  .work-card{
+    width: 892px;
+    height: 300px;
+    top: 182px;
+    align-self: center;
+  }
 
+
+
+/* END CASE STUDIES */
   /* start Testimonials */
   .Testimonials{
     margin-top: 20px;
