@@ -122,6 +122,7 @@ ul{
 /* START CASE STUDIES */
   #case-studies{
     align-self: center;
+    background-color: whitesmoke;
   }
   .overview-text{
     display: flex;
@@ -137,14 +138,58 @@ ul{
   .intro-text{
     align-items: center;
     color: #9C9C9C;
+    text-align: center;
   }
   .work-card{
     width: 892px;
     height: 300px;
     top: 182px;
     align-self: center;
+    margin-top: 50px;
+    display: flex;
   }
-
+  .left-aside-work{
+    width: 449px;
+  }
+  .work-type{
+    width: 72px;
+    height: 24px;
+    top: 27px;
+    border-radius: 60px;
+    padding: 5px 5px 5px 5px;
+    gap: 10px;
+    background-color: #90ffe585 ;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+  }
+  .about-work{
+    color:#9C9C9C; ;
+  }
+  .view-work{
+    width: 189px;
+    height: 38px;
+    border-radius: 4px;
+    top: 245px;
+    border: 0;
+    padding: 10px, 24px, 10px, 24px;
+    gap: 10px;
+    background-color: #2AB090;
+    box-shadow: #2AB090;
+    font-size: 15px;
+    color: white;
+  }
+  .view-work:hover{
+    background-color: #37ff70;
+    transition: ease-in;
+    transition-duration: 0.3s;
+  }
+  .work-image{
+    width: 445px;
+    height: 300px;
+    top: 182px;
+    overflow: hidden;
+  }
 
 
 /* END CASE STUDIES */
