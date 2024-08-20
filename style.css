@@ -92,15 +92,20 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   color: white;
+}
+#my-name{
+  justify-content: flex-start;
+  left: 0;
 }
 
 #split-mid {
   display: flex;
   margin: 100px;
 }
-
+.about-text{
+  color: #9C9C9C;
+}
 .container2 {
   display: flex;
   flex-direction: column;
